@@ -9,6 +9,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ![](./assets/images/screenshot.PNG)
 
+You can check it out live [here](https://xstephx.github.io/blog-preview-card-challenge/).
+
 ## My process
 
 ### Built with
