@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,600;0,800;1,600;1,800&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-:root{
+:root {
     --yellow: hsl(47, 88%, 63%);
 
     --white: hsl(0, 0%, 100%);
@@ -17,7 +17,7 @@
     --font-size-p: 16px;
 }
 
-body{
+body {
     font-family: var(--font-family);
     background-color: var(--yellow);
     display: flex;
@@ -26,11 +26,11 @@ body{
     align-items: center;
 }
 
-p{
+p {
     font-size: var(--font-size-p);
 }
 
-.container{
+.container {
     padding: 25px;
     margin: 10% auto;
     background-color: var(--white);
@@ -39,79 +39,95 @@ p{
     border-radius: 20px;
     border: 1px solid black;
     box-shadow: 7px 7px;
+    transition: all 0.5s ease-in-out;
 }
 
-.container:hover{
+.container:hover {
     box-shadow: 15px 15px;
 }
 
-.yellow-btn{
+.yellow-btn {
     text-align: center;
     background-color: var(--yellow);
     width: 90px;
     margin: 15px 0;
     padding: 5px;
     border-radius: 3px;
-    font-weight: 800;  
+    font-weight: 800;
 }
 
-.heading{
+.heading {
     font-size: 25px;
     font-weight: 800;
     margin: 15px 0;
+    transition: all 0.5s ease-in-out;
 }
 
-.heading:hover{
+.heading:hover {
     cursor: pointer;
     color: var(--yellow);
 }
-.grey-text{
+
+.grey-text {
     color: var(--grey);
     margin-bottom: 20px;
 }
 
-.image img{
+.image img {
     border-radius: 10px;
     width: 348px;
     padding: 0;
     margin: 0;
 }
-.footer{
+
+.footer {
     display: flex;
     align-items: center;
 }
-#avatar{
+
+#avatar {
     width: 30px;
     height: 30px;
 }
 
-.name{
+.name {
     margin-left: 5px;
     font-size: 15px;
     font-weight: 800;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
 
-@media(max-width: 375px){
-    .container{
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media(max-width: 375px) {
+    .container {
         width: 350px;
         margin: 10%;
     }
-    .image img{
+
+    .image img {
         width: 298px;
     }
-    .heading{
+
+    .heading {
         font-size: 20px;
     }
-    .grey-text{
+
+    .grey-text {
         font-size: 15px;
     }
-    p{
+
+    p {
         font-size: 12px;
     }
-    .yellow-btn{
+
+    .yellow-btn {
         font-size: 14px;
     }
 }
