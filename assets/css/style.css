@@ -1,3 +1,4 @@
+/* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,600;0,800;1,600;1,800&display=swap');
 
 * {
@@ -6,13 +7,19 @@
     padding: 0;
 }
 
+/* Global Variables */
 :root {
+    /* Colors */
+
+    /* Primary */
     --yellow: hsl(47, 88%, 63%);
 
+    /* Neutral */
     --white: hsl(0, 0%, 100%);
     --grey: hsl(0, 0%, 50%);
     --black: hsl(0, 0%, 7%);
 
+    /* Fonts */
     --font-family: 'Figtree', sans-serif;
     --font-size-p: 16px;
 }
@@ -30,6 +37,7 @@ p {
     font-size: var(--font-size-p);
 }
 
+/* Main Container */
 .container {
     padding: 25px;
     margin: 10% auto;
@@ -46,6 +54,14 @@ p {
     box-shadow: 15px 15px;
 }
 
+.image img {
+    border-radius: 10px;
+    width: 348px;
+    padding: 0;
+    margin: 0;
+}
+
+/* Content */
 .yellow-btn {
     text-align: center;
     background-color: var(--yellow);
@@ -73,13 +89,8 @@ p {
     margin-bottom: 20px;
 }
 
-.image img {
-    border-radius: 10px;
-    width: 348px;
-    padding: 0;
-    margin: 0;
-}
 
+/* Footer */
 .footer {
     display: flex;
     align-items: center;
@@ -105,6 +116,7 @@ p {
     color: hsl(228, 45%, 44%);
 }
 
+/* Responsive */
 @media(max-width: 375px) {
     .container {
         width: 350px;
