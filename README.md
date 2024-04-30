@@ -9,7 +9,10 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ![](./assets/images/screenshot.PNG)
 
-You can check it out live [here](https://xstephx.github.io/blog-preview-card-challenge/).
+### Links
+
+- Solution URL: [here](https://www.frontendmentor.io/solutions/solution-blog-preview-card-_4RUy9z-XM)
+- Live Site URL: [here](https://xstephx.github.io/blog-preview-card-challenge/)
 
 ## My process
 
